@@ -1,1 +1,1 @@
-# Explore-Array.github.io
+# explorearray.github.io
