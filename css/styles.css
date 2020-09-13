@@ -49,7 +49,7 @@
 
 html {
   font-family: sans-serif;
-  line-height: 1.15;
+  line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -84,9 +84,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+
+}
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  line-height: 2;
 }
 
 abbr[title],
@@ -10440,8 +10443,14 @@ header.masthead .masthead-heading {
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4 {
+  color: black;
   margin-top: 1.5rem;
   margin-bottom: 0;
+}
+
+.team-member:hover h4{
+  color: #a71d2a;
+  text-decoration: underline;
 }
 
 section#contact {
